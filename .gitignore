@@ -1,0 +1,41 @@
+# =====================================================================
+#  disparity-fpga  —  ignore generated / vendor artifacts
+# =====================================================================
+
+# ---- HLS workspace (Vitis HLS) ----------------------------------------
+# Large vendor trees — clone separately (see README), do not commit.
+hls/opencv/
+hls/Vitis_Libraries/
+hls/build/
+# Vitis HLS generated project output (vitis_disparity/, vitis_stereo_cam/, ...)
+hls/vitis_*/
+hls/disparity_kernel/
+hls/sim_output/
+
+# ---- Vivado ----------------------------------------------------------
+# Everything Vivado regenerates from the .xpr + sources.
+vivado/**/*.cache/
+vivado/**/*.gen/
+vivado/**/*.hw/
+vivado/**/*.ip_user_files/
+vivado/**/*.ipdefs/
+vivado/**/*.runs/
+vivado/**/*.sim/
+vivado/**/.Xil/
+vivado/**/_ide/
+vivado/**/.metadata/
+vivado/**/RemoteSystemsTempFiles/
+vivado/**/*.jou
+vivado/**/*.str
+
+# ---- generic generated / binary outputs -----------------------------
+*.log
+*.dcp
+*.bit
+*.pdi
+*.bin
+
+# ---- editor / OS -----------------------------------------------------
+.DS_Store
+*.swp
+.vscode/

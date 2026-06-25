@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.792373",
+   "Default View_TopLeft":"-143,-96",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXI_HP0_FPD -pg 1 -lvl 4 -x 1110 -y 230 -defaultsOSRD
+preplace port M_AXI_HP1_FPD -pg 1 -lvl 4 -x 1110 -y 260 -defaultsOSRD
+preplace port M_AXI_LPD -pg 1 -lvl 4 -x 1110 -y 290 -defaultsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -10 -y 180 -defaultsOSRD
+preplace port port-id_CLK -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port port-id_GHP_CLK_I -pg 1 -lvl 0 -x -10 -y 410 -defaultsOSRD
+preplace port port-id_GHP_CLK_O -pg 1 -lvl 4 -x 1110 -y 320 -defaultsOSRD
+preplace port port-id_GHP_RSTn -pg 1 -lvl 0 -x -10 -y 440 -defaultsOSRD
+preplace port port-id_RSTn -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port port-id_S_AXI_CLK -pg 1 -lvl 0 -x -10 -y 210 -defaultsOSRD
+preplace port port-id_S_AXI_RSTn -pg 1 -lvl 0 -x -10 -y 240 -defaultsOSRD
+preplace portBus INTR -pg 1 -lvl 4 -x 1110 -y 130 -defaultsOSRD
+preplace inst DPUCZDX8G -pg 1 -lvl 2 -x 490 -y 260 -defaultsOSRD
+preplace inst hier_dpu_clk -pg 1 -lvl 1 -x 140 -y 100 -defaultsOSRD
+preplace inst hier_dpu_ghp -pg 1 -lvl 3 -x 910 -y 290 -defaultsOSRD
+preplace inst hier_dpu_irq -pg 1 -lvl 3 -x 910 -y 130 -defaultsOSRD
+preplace netloc CLK_1 1 0 1 20J 70n
+preplace netloc DPUCZDX8G_dpu0_interrupt 1 2 1 680J 130n
+preplace netloc DPUCZDX8G_dpu_2x_clk_ce 1 0 3 20 210 280J 140 660
+preplace netloc GHP_CLK_I_1 1 0 3 10J 420 NJ 420 700J
+preplace netloc GHP_RSTn_1 1 0 3 NJ 440 NJ 440 720J
+preplace netloc RSTn_1 1 0 1 NJ 100
+preplace netloc S_AXI_CLK_1 1 0 2 10J 220 NJ
+preplace netloc S_AXI_RSTn_1 1 0 2 NJ 240 NJ
+preplace netloc hier_dpu_clk_DPU_CLK 1 1 2 290 380 690
+preplace netloc hier_dpu_clk_DSP_CLK 1 1 1 300 70n
+preplace netloc hier_dpu_clk_RSTn_DSP 1 1 1 270 110n
+preplace netloc hier_dpu_clk_RSTn_INTC 1 1 2 NJ 130 670
+preplace netloc hier_dpu_clk_RSTn_PERI 1 1 2 260 390 710
+preplace netloc hier_dpu_ghp_GHP_CLK_O 1 3 1 NJ 320
+preplace netloc hier_dpu_irq_INTR 1 3 1 NJ 130
+preplace netloc Conn1 1 3 1 1080J 230n
+preplace netloc Conn2 1 3 1 1090J 260n
+preplace netloc Conn3 1 3 1 1080J 290n
+preplace netloc DPUCZDX8G_DPU0_M_AXI_DATA0 1 2 1 N 220
+preplace netloc DPUCZDX8G_DPU0_M_AXI_DATA1 1 2 1 N 240
+preplace netloc DPUCZDX8G_DPU0_M_AXI_INSTR 1 2 1 N 260
+preplace netloc S_AXI_1 1 0 2 10J 200 NJ
+levelinfo -pg 1 -10 140 490 910 1110
+pagesize -pg 1 -db -bbox -sgen -140 -10 1270 460
+"
+}
+0

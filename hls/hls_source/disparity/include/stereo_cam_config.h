@@ -1,0 +1,59 @@
+#ifndef CAMERA_CONFIG_H
+#define CAMERA_CONFIG_H
+
+// LEFT_CAM_MATRIX_COEFF
+#define LEFT_CAM_FX     475.9925
+#define LEFT_CAM_FY     476.225
+#define LEFT_CAM_CX     337.8175
+#define LEFT_CAM_CY     191.16625
+#define LEFT_CAM_K1     -0.0717405
+#define LEFT_CAM_K2     -0.0179921
+#define LEFT_CAM_P1     0.00028531
+#define LEFT_CAM_P2     -7.5855e-05
+#define LEFT_CAM_K3     -0.0503386
+
+// RIGHT_CAM_MATRIX_COEFF
+#define RIGHT_CAM_FX    476.0625
+#define RIGHT_CAM_FY    476.445
+#define RIGHT_CAM_CX    327.11
+#define RIGHT_CAM_CY    188.959
+#define RIGHT_CAM_K1    -0.0704781
+#define RIGHT_CAM_K2    -0.0189054
+#define RIGHT_CAM_P1    -0.000268036
+#define RIGHT_CAM_P2    5.39805e-05
+#define RIGHT_CAM_K3    -0.0498345
+
+// LEFT_DISTO
+#define LEFT_DISTO_K1       0.954409
+#define LEFT_DISTO_K2       28.7181
+#define LEFT_DISTO_K3       -12.7673
+#define LEFT_DISTO_K4       1.05986
+#define LEFT_DISTO_K5       28.597
+#define LEFT_DISTO_K6       -10.1152
+#define LEFT_DISTO_P1       0.000285906
+#define LEFT_DISTO_P2       -6.36395e-05
+
+// RIGHT_DISTO
+#define RIGHT_DISTO_K1      -4.43071
+#define RIGHT_DISTO_K2      43.4051
+#define RIGHT_DISTO_K3      -20.6948
+#define RIGHT_DISTO_K4      -4.33971
+#define RIGHT_DISTO_K5      42.9814
+#define RIGHT_DISTO_K6      -17.4301
+#define RIGHT_DISTO_P1      -0.000253378
+#define RIGHT_DISTO_P2      5.04705e-05
+
+// STEREO
+#define STEREO_BASELINE     120.075
+#define STEREO_TY           -0.244566
+#define STEREO_TZ           0.751767
+#define STEREO_CV_VGA       0.00808186
+#define STEREO_RX_VGA       0.00493188
+#define STEREO_RZ_VGA       0.00229249
+
+// IMAGE SIZE (ZED VGA: 672x376)
+#define IMG_WIDTH 672
+#define IMG_HEIGHT 376
+
+
+#endif // CAMERA_CONFIG_H

@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.33",
+   "Default View_TopLeft":"359,-217",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port CAN_0_0 -pg 1 -lvl 4 -x 1630 -y 140 -defaultsOSRD
+preplace port CAN_1_0 -pg 1 -lvl 4 -x 1630 -y 170 -defaultsOSRD
+preplace inst dpu_concat_irq -pg 1 -lvl 2 -x 610 -y 400 -defaultsOSRD
+preplace inst hier_dpu -pg 1 -lvl 2 -x 610 -y 170 -defaultsOSRD
+preplace inst rst_gen_ghp -pg 1 -lvl 1 -x 150 -y 110 -defaultsOSRD
+preplace inst rst_gen_reg -pg 1 -lvl 1 -x 150 -y 310 -defaultsOSRD
+preplace inst zynq_ultra_ps_e -pg 1 -lvl 3 -x 1220 -y 190 -defaultsOSRD
+preplace inst disparity_kernel_0 -pg 1 -lvl 2 -x 610 -y -70 -defaultsOSRD
+preplace netloc dpu_concat_irq_dout 1 2 1 870J 250n
+preplace netloc hier_dpu_GHP_CLK_O 1 2 1 870 190n
+preplace netloc hier_dpu_INTR 1 1 2 400 500 820
+preplace netloc rst_gen_ghp_peripheral_aresetn 1 1 1 350 150n
+preplace netloc rst_gen_reg_peripheral_aresetn 1 1 1 330 -50n
+preplace netloc zynq_ultra_ps_e_pl_clk0 1 0 4 -50 10 360 490 860 50 1600
+preplace netloc zynq_ultra_ps_e_pl_clk1 1 0 4 -30 210 340 520 NJ 520 1570
+preplace netloc zynq_ultra_ps_e_pl_resetn0 1 0 4 -40 510 NJ 510 NJ 510 1580
+preplace netloc disparity_kernel_0_m_axi_gmem0 1 1 2 390 460 840
+preplace netloc disparity_kernel_0_m_axi_gmem1 1 1 2 420 320 810
+preplace netloc disparity_kernel_0_m_axi_gmem2 1 1 2 430 330 800
+preplace netloc disparity_kernel_0_m_axi_gmem3 1 1 2 410 470 830
+preplace netloc hier_dpu_M01_AXI 1 1 2 380 340 790
+preplace netloc hier_dpu_M_AXI_HP0_FPD 1 2 1 850 110n
+preplace netloc hier_dpu_M_AXI_HP1_FPD 1 2 1 850 130n
+preplace netloc hier_dpu_M_AXI_LPD 1 2 1 870 150n
+preplace netloc zynq_ultra_ps_e_CAN_0 1 3 1 1610J 140n
+preplace netloc zynq_ultra_ps_e_CAN_1 1 3 1 NJ 170
+preplace netloc zynq_ultra_ps_e_M_AXI_HPM0_LPD 1 1 3 370 480 NJ 480 1590
+levelinfo -pg 1 -70 150 610 1220 1630
+pagesize -pg 1 -db -bbox -sgen -70 -170 1740 730
+"
+}
+{
+   "da_axi4_cnt":"5"
+}
